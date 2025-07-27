@@ -36,7 +36,6 @@ a:hover {
 
 .hero-text-container {
     display: flex;
-    border: 1px solid red;
     justify-content: center;
     padding: 50px;
     background-color: #1F2937;
@@ -45,6 +44,8 @@ a:hover {
 
 .hero-text p {
     font-size: 14px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 .hero-text h1 {
@@ -65,10 +66,8 @@ a:hover {
 
 .box {
     text-align: center;
-    border: 3px solid pink;
 }
 .main .box img{
-    border: 3px solid blue;
     max-width: 65%;
     height: auto;
     flex: 1 1 auto;
@@ -98,6 +97,25 @@ a:hover {
 }
 
 .callToAction {
-    background-color: blue;
+    background-color: #3882F6;
     color: white;
+    display: flex;
+    width: 60%;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 75px;
+    padding-top: 50px
 }
