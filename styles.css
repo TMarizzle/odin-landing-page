@@ -100,15 +100,21 @@ a:hover {
     background-color: #3882F6;
     color: white;
     display: flex;
-    width: 60%;
+    width: 70%;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto 40px auto;
+    padding: 20px 0 20px 0;
 }
 
 button {
     background-color: #3882F6;
     color: white;
     padding: 5px 15px 5px 15px;
-    margin-top: 10px;
     border-radius: 10px;
+    border-color: white;
+    font-size: 16px;
 }
 
 footer {
