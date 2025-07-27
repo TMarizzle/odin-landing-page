@@ -76,11 +76,28 @@ a:hover {
 }
 
 .quote-section {
-    background-color: gray;
+    background-color: #E5E7EB;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .quote {
+    font-size: 36px;
     font-style: italic;
-    font-size: 30px;
-    align-items: center;
+    font-weight: 200;
+    width: 60%;
+    margin: auto;
+}
+
+.person {
+    font-weight: bold;
+    text-align: right;
+    padding-top: 10px;
+    width: 80%;
+}
+
+.callToAction {
+    background-color: blue;
+    color: white;
 }
