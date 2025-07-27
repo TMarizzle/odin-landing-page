@@ -74,3 +74,13 @@ a:hover {
     flex: 1 1 auto;
     object-fit: cover;
 }
+
+.quote-section {
+    background-color: gray;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 30px;
+    align-items: center;
+}
